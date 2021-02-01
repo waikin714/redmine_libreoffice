@@ -1,4 +1,4 @@
-# redmine_libreoffice
+# redmine_libreoffice Docker Image
 This is an image consist of 
 - linux
 - redmine:4.1.1
@@ -9,7 +9,7 @@ https://hub.docker.com/r/play714/redmine_libreoffice
 ## install redmine_more_previews steps
 step 0: backup below item
 
-db
+- db
 - redmine attachments: /usr/src/redmine/files
 - plugins: /usr/src/redmine/plugins
 - themes: /usr/src/redmine/public/themes
@@ -28,7 +28,7 @@ or download it manually:
 apt-get update && apt-get install -y --force-yes libreoffice
 ```
 
-1.3 make suer soffice is installed
+1.3 make sure soffice is installed
 
 `which soffice`
 
